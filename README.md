@@ -193,20 +193,14 @@ Rules worth checking by hand in the web interface:
 - A gas leak is never booked and the customer receives the safety message
 - A pin code that is not served receives a polite refusal
 
-## Troubleshooting
 
-| Problem | Solution |
-|---|---|
-| `Could not import module "api"` or `File does not exist: app.py` | The terminal is in the wrong folder. Change to the folder that contains `api.py`. |
-| The page asks you to start the back end | Run `uvicorn api:app --reload` in its own terminal and leave it open. |
-| `AuthenticationError` | The key in `.env` is wrong. Fix it and restart Uvicorn. |
-| `APIConnectionError` | Run the commands from a terminal that can reach `api.openai.com`; try again without the virtual environment if it cannot. |
 
 ## Security
 
 - `.env` and `bookings.json` are listed in `.gitignore` and must never be committed.
 - Never print or share your API key. If a key is exposed, delete it in the OpenAI dashboard and create a new one.
 
-## Acknowledgements
 
-Built as the Module 6 assignment of the Applied Agentic AI course by AI Mentorship Hub.
+## Author
+
+**Prajwal Naik**
