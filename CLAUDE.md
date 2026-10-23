@@ -58,6 +58,7 @@ fixit-agent/
 ├── practice_requests.txt
 ├── test_tools.py        <- tests the tools with no AI
 ├── run_practice.py      <- runs the practice requests, writes test_results.md
+├── docs/                <- screenshot used in the README
 └── data/                <- the files we were given (never change them)
     ├── services.json
     ├── service_areas.json
